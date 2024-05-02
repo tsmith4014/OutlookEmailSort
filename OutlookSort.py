@@ -47,7 +47,7 @@ def get_all_messages(folder, folder_path=''):
 
     return messages
 
-file_path = os.path.expanduser("/Users/chadthompsonsmith/Desktop/Projects/amy_projects/OutlookEmailSort/Data_Sort/Inbox/backup.pst")
+file_path = os.path.expanduser("/Users/chadthompsonsmith/Desktop/Projects/amy_projects/OutlookEmailSort/Data_Sort/Inbox/oldbackup.pst")
 
 # Open the PST file
 pst_file = pypff.file()
